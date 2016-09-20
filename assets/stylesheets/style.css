@@ -84,3 +84,45 @@ body, html{
 	margin: 0 auto;
 	text-align: center;
 }
+.left{
+	float: left;
+}
+.column_30{
+	width: 30%;
+}
+
+ul{
+	margin-top: 40px;
+	margin-left: 10px;
+}
+li{
+	box-sizing: border-box;
+	color: white;
+	font-size: 24px;
+	border: 2px solid white;
+	width: 200px;
+	padding: 20px;
+	padding-left: 20px;
+}
+li:first-of-type, li:nth-of-type(2){
+	border-bottom: none;
+}
+li:hover{
+	color:black;
+	background-color: white;
+}
+.column_60{
+	width: 60%;
+	margin-top: 40px;
+}
+.column_60 h3{
+	color: white;
+	font-size: 30px;
+	margin: 20px 0;
+}
+.column_60 p{
+	color:white;
+	font-size: 22px;
+	text-align: justify;
+    text-justify: inter-word;
+}
