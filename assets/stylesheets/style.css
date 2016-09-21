@@ -92,7 +92,7 @@ body, html{
 }
 
 ul{
-	margin-top: 40px;
+	margin-top: 60px;
 	margin-left: 10px;
 }
 li{
@@ -123,6 +123,31 @@ li:hover{
 .column_60 p{
 	color:white;
 	font-size: 22px;
+	line-height: 26px;
 	text-align: justify;
     text-justify: inter-word;
+}
+table{
+	margin: 60px 0;
+}
+td, th{
+	padding: 10px 30px;
+}
+table, th, td{
+	border: 2px solid white;
+	color: white;
+	font-size: 22px;
+	line-height: 26px;
+}
+iframe{
+	display: block;
+	margin-top: 60px;
+}
+tr:hover{
+	color:black;
+	background-color: white;
+}
+tr:hover td, tr:hover th{
+	color: black;
+	border: 2px solid black;
 }
